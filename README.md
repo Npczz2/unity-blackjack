@@ -48,9 +48,9 @@ if(enemyValue <= 11) {
 
 *2: There are two possible paths when the player has stopped buying.*
 
-   *2.1: If the player value is higher than the enemy's, he will buy even if it risky, because if he stops he will lose anyways.*
+- *2.1: If the player value is higher than the enemy's, he will buy even if it risky, because if he stops he will lose anyways.*
     
-   *2.2: If the enemy's score meets the player's one value or pass it, he will stop buying (in this scenario the enemy consider a draw).*
+- *2.2: If the enemy's score meets the player's one value or pass it, he will stop buying (in this scenario the enemy consider a draw).*
     
 *3: If the player hasn't stopped buying, the enemy needs to keep playing.*
 
