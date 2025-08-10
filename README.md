@@ -1,8 +1,8 @@
 # Unity Blackjack
-This is a minigame created with Unity using C# for a game jam project.
-The main idea of this repository is to show the game flow and the AI's thinking process.
+This is a minigame created with **Unity** using **C#** for a game jam project.
+The main idea of this repository is to show **the game flow and the AI's thinking process**.
 
-//Gif de gameplay
+![Blackjack1](https://github.com/Npczz2/unity-blackjack/blob/main/Blackjack%20Images/blackjack1Gif.gif)
 
 # How does blackjack work?
 In classic blackjack, the player needs to buy cards to get a hand value **as close to 21 as possible** while he tries to beat the dealer's hand. If you exceed this value, you lose.
@@ -15,7 +15,7 @@ If the player's hand value is higher than the dealer's, he wins and vice versa.
 ## Game manager
 In the main script, there is an array that stores all the deck cards. These cards are **Scriptable objects** that contain the card **value** and **sprite**.
 
-//Imagem do scriptable object do lado da sprite
+![Scriptable](https://github.com/Npczz2/unity-blackjack/blob/main/Blackjack%20Images/scriptableObject.png)
 
 The game manager controls the turns, alternating between the player and the dealer, stores their scores and if they stopped buying.
 
@@ -63,7 +63,7 @@ if(enemyValue <= 11) {
 ## Player's logic
 Just like the enemy, the player has the option to hit or stop whenever he wants.
 
-//Imagem do hit or stand
+![HitOrStand](https://github.com/Npczz2/unity-blackjack/blob/main/Blackjack%20Images/hitOrStand.png)
 
 ## Calculating the winner
 The program will then check the scores and finding out who the winner is.
@@ -96,4 +96,4 @@ void checkResults() {
 
 # The game
 This minigame is a part of the game Sirin, that is available at: https://npcproductions.itch.io/sirin
-// Outro gif do jogo
+![Blackjack2](https://github.com/Npczz2/unity-blackjack/blob/main/Blackjack%20Images/blackjack2Gif.gif)
