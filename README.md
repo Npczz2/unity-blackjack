@@ -17,7 +17,7 @@ In the main script, there is an array that stores all the deck cards. These card
 
 ![Scriptable](https://github.com/Npczz2/unity-blackjack/blob/main/Blackjack%20Images/scriptableObject.png)
 
-The game manager controls the turns, alternating between the player and the dealer, stores their scores and if they stopped buying.
+The game manager controls the turns alternating between the player and the dealer, stores their scores and if they stopped buying.
 
 ## Enemy's logic
 The enemy thinking process is based on the player score. If the player score is higher than 21, the enemy stops buying and wins the round. If not, the logic starts.
