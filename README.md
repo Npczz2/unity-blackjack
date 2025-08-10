@@ -54,11 +54,11 @@ if(enemyValue <= 11) {
     
 *3: If the player hasn't stopped buying, the enemy needs to keep playing.*
 
-   *3.1: The enemy can't stop if his score is lower than 15 because the value is too low and can be beaten easily.*
+- *3.1: The enemy can't stop if his score is lower than 15 because the value is too low and can be beaten easily.*
     
-   *3.2: If the enemy score is greater than 15 and the player value is still higher than his, he needs to buy even if it's risky.*
+- *3.2: If the enemy score is greater than 15 and the player value is still higher than his, he needs to buy even if it's risky.*
     
-   *3.3: However, if the player's score isn't higher than his, he stops buying.*
+- *3.3: However, if the player's score isn't higher than his, he stops buying.*
 
 ## Player's logic
 Just like the enemy, the player has the option to hit or stop whenever he wants.
