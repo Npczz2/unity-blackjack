@@ -96,4 +96,5 @@ void checkResults() {
 
 # The game
 This minigame is a part of the game Sirin, that is available at: https://npcproductions.itch.io/sirin
+
 ![Blackjack2](https://github.com/Npczz2/unity-blackjack/blob/main/Blackjack%20Images/blackjack2Gif.gif)
