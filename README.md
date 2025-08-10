@@ -19,7 +19,7 @@ In the main script, there is an array that stores all the deck cards. These card
 
 The game manager controls the turns, alternating between the player and the dealer, stores their scores and if they stopped buying.
 
-## Enemy logic
+## Enemy's logic
 The enemy thinking process is based on the player score. If the player score is higher than 21, the enemy stops buying and win the round. If not, the logic starts.
 ```
 if(enemyValue <= 11) { 
@@ -48,19 +48,19 @@ if(enemyValue <= 11) {
 
 *2: There are two possible paths when the player has stopped buying.*
 
-    *2.1: If the player value is higher than the enemy's, he will buy even if it risky, because if he stops he will lose anyways.*
+   *2.1: If the player value is higher than the enemy's, he will buy even if it risky, because if he stops he will lose anyways.*
     
-    *2.2: If the enemy's score meets the player's one value or pass it, he will stop buying (in this scenario the enemy consider a draw).*
+   *2.2: If the enemy's score meets the player's one value or pass it, he will stop buying (in this scenario the enemy consider a draw).*
     
 *3: If the player hasn't stopped buying, the enemy needs to keep playing.*
 
-    *3.1: The enemy can't stop if his score is lower than 15 because the value is too low and can be beaten easily.*
+   *3.1: The enemy can't stop if his score is lower than 15 because the value is too low and can be beaten easily.*
     
-    *3.2: If the enemy score is greater than 15 and the player value is still higher than his, he needs to buy even if it's risky.*
+   *3.2: If the enemy score is greater than 15 and the player value is still higher than his, he needs to buy even if it's risky.*
     
-    *3.2: However, if the player's score isn't higher than his, he stops buying.*
+   *3.3: However, if the player's score isn't higher than his, he stops buying.*
 
-## Player logic
+## Player's logic
 Just like the enemy, the player has the option to hit or stop whenever he wants.
 
 //Imagem do hit or stand
