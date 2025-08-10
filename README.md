@@ -45,12 +45,19 @@ if(enemyValue <= 11) {
 }
 ```
 *1: The maximum value you can get buying a card is 10, meaning that the enemy will always buy if the value is lower or equal to 11*
+
 *2: There are two possible paths when the player has stopped buying.*
+
     *2.1: If the player value is higher than the enemy's, he will buy even if it risky, because if he stops he will lose anyways.*
+    
     *2.2: If the enemy's score meets the player's one value or pass it, he will stop buying (in this scenario the enemy consider a draw).*
+    
 *3: If the player hasn't stopped buying, the enemy needs to keep playing.*
+
     *3.1: The enemy can't stop if his score is lower than 15 because the value is too low and can be beaten easily.*
+    
     *3.2: If the enemy score is greater than 15 and the player value is still higher than his, he needs to buy even if it's risky.*
+    
     *3.2: However, if the player's score isn't higher than his, he stops buying.*
 
 ## Player logic
@@ -82,7 +89,9 @@ void checkResults() {
 }
 ```
 *1: If both players exceeded 21 on their scores, the game will consider it a draw.*
+
 *2: If one of them exceeded the value, the other one will get a point.*
+
 *3: If none of them exceeded it, the one with a higher score will win. If the score is the same, it will be considered a draw.*
 
 # The game
