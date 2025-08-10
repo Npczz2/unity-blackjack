@@ -6,7 +6,9 @@ The main idea of this repository is to show the game flow and the AI's thinking 
 
 # How blackjack works?
 In classic blackjack, the player needs to buy cards to get a hand value **as close to 21 as possible** while he tries to beat the dealer's hand. If you exceed this value, you lose.
+
 The player has two possible actions while playing: **Hit or stay.** Hitting gives him another card and stay means he stopped buying.
+
 If the player's hand value is higher than the dealer's one, he wins and vice versa.
 
 # Blackjack implemented in Unity
